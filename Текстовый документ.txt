@@ -1,0 +1,124 @@
+html
+___________________________________
+<div class="serv__serv"> 
+                  <p class="serv__text">best services</p>
+               <h2 class="serv__title">Benefits You get when using our services</h2>
+            </div>
+            <div class="serv__serv-text">
+               <p class="serv__sub-title">While we can customize your needs plan to suit your needs, most clients
+               schedule regular interior services</p>
+            </div>
+               <div class="serv__columns">
+                  <div class="serv__column">
+                     <div class="serv__icon">
+                        <img class="serv__images" src="/img/servic.svg" alt="">
+                     </div>
+                     <div class="column__text">
+                        <h3 class="serv__column-title">Best Quality</h3>
+                        <p class="serv__column-text">It starts with our fun and easy project questionnaire where you’ll
+                           provide details.</p>
+                     </div>
+                  </div>
+                  <div class="serv__line"></div>
+                  <div class="serv__column">
+                     <div class="serv__icon">
+                        <img class="serv__images" src="/img/servic1.svg" alt="">
+                     </div>
+                     <div class="column__text">
+                        <h3 class="serv__column-title">Excellent Design</h3>
+                        <p class="serv__column-text">After getting matched, your designer will message with you to
+                           collaborate on ideas.</p>
+                     </div>
+                  </div>
+                  <div class="serv__line"></div>
+                  <div class="serv__column">
+                     <div class="serv__icon">
+                        <img class="serv__images" src="/img/servic2.svg" alt="">
+                     </div>
+                     <div class="column__text">
+                        <h3 class="serv__column-title">guaranteed Shipping</h3>
+                        <p class="serv__column-text">Designer incorporates feedback into the final room design and
+                           layout with.</p>
+                     </div>
+                  </div>
+               </div>
+___________________________________
+css
+___________________________________
+.serv {
+   color: #fff;
+}
+
+.serv__text {
+   margin-top: 88px;
+   margin-bottom: 12px;
+}
+
+.serv__title {
+   max-width: 477px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 60px;
+   letter-spacing: -0.5px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   margin-bottom: 56px;
+}
+
+.serv__sub-title {
+   margin-top: 86px;
+   max-width: 395px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 180%;
+   color: #FFFFFF;
+   margin-bottom: 62px;
+}
+
+.serv__columns {
+   display: flex;
+}
+
+.serv__column {
+   display: flex;
+}
+
+.serv__images {
+   margin-right: 6px;
+}
+
+.serv__column-title {
+   margin-bottom: 9px;
+}
+
+.serv__column:nth-child(1) {
+   max-width: 290px;
+
+}
+
+.serv__column:nth-child(2) {
+   max-width: 307px;
+}
+
+.serv__column:nth-child(3) {
+   max-width: 308px;
+}
+
+
+.serv__column-title {
+   max-width: 200px;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 23px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+}
+
+.serv__column-text {
+   max-width: 243px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 180%;
+   color: #FFFFFF;
+   margin-bottom: 110px;
+}
